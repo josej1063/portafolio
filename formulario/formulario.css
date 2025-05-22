@@ -1,0 +1,111 @@
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image: linear-gradient(45deg, #330808, 
+    #828180);
+    border-radius: 2.5em;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+    margin: 0% auto;
+  }
+ 
+  #form::before {
+    content: '';
+    background-image: linear-gradient(45deg, #e4d7d7, 
+    #ffb700);
+    height: 358px;
+    width: 309px;
+    position: absolute;
+    margin-top: -34px;
+    margin-left: px;
+    z-index: -1;
+    border-radius: 2.7em;
+  }
+  
+  #button {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background: #959595;
+    color: black;
+    padding: 0.7em 5.5em;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e9e9e900;
+    border-radius: 5em;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+   #button:hover {
+    border: 2px solid #f3efed;
+    background: #00000000;
+    color: #5f5e5e;
+  }
+ 
+  #button:active {
+    border: 2px solid #66da4300;
+    background: #ff5900;
+    color: black;
+  }
+  
+  .input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ededed00;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: transparent;
+    color: #b9b7b6;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+  }
+  
+  .input:focus {
+    border: 1px solid #66da4300;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    color: rgb(242, 237, 237);
+  }
+  
+  .input::placeholder {
+    color: #fafafa;
+  }
+
+  .centro{
+    background-color: ;
+  }
+
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
+/** fin-formulario de contactos**/
+
