@@ -210,7 +210,7 @@ https://templatemo.com/tm-531-reflux
                 <figure class="snip1321">
                   <img src="img/4.png" alt="sq-sample26" />
                   <figcaption>
-                    <a href="img/4.png" data-lightbox="image-1"
+                    <a href="img/Cag" data-lightbox="image-1"
                       data-title="Calculadora web"><i class="fa fa-search"></i></a>
                     <h4>calculadora web</h4>
                     <span>Fue unos de mis primeros conocimientos con js </span>
@@ -222,7 +222,7 @@ https://templatemo.com/tm-531-reflux
         </div>
       </div>
     </section>
-
+    <!--formulario-->
     <section class="section contact-me" data-section="section4">
       <div class="container">
         <div class="section-heading">
@@ -231,29 +231,40 @@ https://templatemo.com/tm-531-reflux
           <span>Si quieres saber mas de mi o contactare para algun trabajo o proyecto.</span>
         </div>
         <div class="col-md-6"></div>
-          
           <form id="form">
-            <div class="field">
-              <label for="name">name</label>
-              <input type="text" name="name" id="name" class="input">
-            </div>
+  <div class="field">
+    <label for="name">name</label>
+    <input type="text" name="name" id="name">
+  </div>
+  <div class="field">
+    <label for="time">time</label>
+    <input type="text" name="time" id="time">
+  </div>
+  <div class="field">
+    <label for="message">message</label>
+    <input type="text" name="message" id="message">
+  </div>
+  <div class="field">
+    <label for="email">email</label>
+    <input type="text" name="email" id="email">
+  </div>
 
-            <div class="field">
-              <label for="message">message</label>
-              <input type="text" name="message" id="message" class="input">
-            </div>
-            <div class="field">
-              <label for="email">email</label>
-              <input type="text" name="email" id="email" class="input">
-            </div>
+  <input type="submit" id="button" value="Send Email" >
+</form>
 
-            <input type="submit" id="button" value="enviar">
-          </form>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('xZdJst3OEGRYHvg23')
+</script>
+          
         </div>
       </div>
     </section>
   </div>
   <script src="formulario/formulario.js"></script>
+  <!--fin-formulario-->
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
